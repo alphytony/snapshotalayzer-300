@@ -11,7 +11,8 @@ alphy uses the configuration file created by AWS cli eg.
 
 ## Running
 
-`pipenv run python alphy/file1.py <command> <--project=PROJECT>`
+`pipenv run python alphy/file1.py <command> <subcommand> <--project=PROJECT>`
 
-*command* is list,start,stop
+*command* is instances,volumes,snapshots
+*subcommand* is depends on command
 *project* is optional
